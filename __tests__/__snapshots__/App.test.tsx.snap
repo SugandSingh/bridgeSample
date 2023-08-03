@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 20,
+        "margin": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    Welcome to React Native!
+  </Text>
+  <View
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      [
+        {
+          "overflow": "hidden",
+        },
+        {
+          "backgroundColor": "#3b5998",
+          "borderRadius": 5,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "padding": 8,
+          },
+          {
+            "backgroundColor": "#3b5998",
+            "borderRadius": 5,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "white",
+              "fontSize": 20,
+            },
+            {
+              "marginRight": 10,
+            },
+            {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        style={
+          {
+            "fontSize": 15,
+          }
+        }
+      >
+        Login with Facebook
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      {
+        "color": "#333333",
+        "marginBottom": 10,
+        "marginTop": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    This is a React Native snapshot test. I'm chaanging Ui
+  </Text>
+</View>
+`;
